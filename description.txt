@@ -1,0 +1,42 @@
+PYTHON - SNAKE GAME 
+
+what you usually need for this game?:
+
+- a window where you can play it (size)
+- colors
+- score
+- gameloop (movement, defs, snake, food updating screen, set refresh rate)
+- a snake (moving, speed, position, body, disappearing mechanism, appearing mechanism)
+- the food ( position spawning mechanism, dissappering mechanism)
+- game over (score, game over text) and the start menu (press a button..., logo, start text)
+
+
+
+
+
+ingredients:
+
+- Initialise the game window
+- add colors
+- fps controls
+- set the  game variables (food and snake position, snake body, a Literal for the food spawn, direction)
+- set the functions (quit, start, score)
+- make the gameloop (movment, making sure the snake cannot move in the opposite direction instantaneously, food, border, snake hitting himself)
+
+
+importable modules: time, sys, pygame, random 
+good to search for: pop(), get_rect(), render(), blit() surface, insert(), rect(), tick(), update(), time.Cloack()
+
+
+BONUS IDEAS:
+
+- The rock. if you hit it you dies (EASY: change position if you it a food, MEDIUM: add more rocks,HARD: change the position in every 10sec ) 
+- Red apple. if you eat it you will be faster EASY
+- Green apple. if you eat it you will be slower EASY
+- More score more speed MEDIUM
+- No borders. whenever you go out from the screen you come back from the other side HARD
+- if you want more, IT'S JUST UP FOR YOUR CREATIVITY 
+
+HELP:
+
+If you can not make the game or you just have a questions just write an email for this adress : pal.almos04@gmail.com 
